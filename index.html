@@ -1,0 +1,547 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARKLIGHTNING Studio | Digital Artist Portfolio & Commissions</title>
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER & NAVIGATION ==================== -->
+    <header id="header">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <i class="fa-solid fa-bolt-lightning"></i>
+                <span>DARKLIGHTNING</span>
+            </a>
+            <nav id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#commission-hub">Commissions</a></li>
+                    <li><a href="#tos">Terms</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-cta-group">
+                    <!-- EDITABLE: Commission Button Logic (Directs to VGen since link is provided) -->
+                    <a href="https://vgen.co/Itsuki03" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm commission-btn">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Commission Me
+                    </a>
+                </div>
+            </nav>
+            <div class="hamburger" id="hamburger" aria-label="Toggle navigation" role="button" tabindex="0">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="badge"><i class="fa-solid fa-circle-dot pulsing"></i> Commissions Open</span>
+                <h1>Bringing Imagination to Life with <span class="gradient-text">Dark & Electric</span> Artistry</h1>
+                <p>Welcome to DARKLIGHTNING Studio! Explore professional digital illustrations, character concepts, speedpaints, and custom commission services.</p>
+                <div class="hero-buttons">
+                    <a href="https://vgen.co/Itsuki03" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+                        <i class="fa-solid fa-star"></i> Commission on VGen
+                    </a>
+                    <a href="#gallery" class="btn btn-outline btn-lg">View Gallery</a>
+                </div>
+                <div class="hero-social-preview">
+                    <span>Connect:</span>
+                    <a href="https://www.instagram.com/aiqiqivictor?psln=cWF4bzI3eWJ4d3R5" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@itsuki032002?_r=1&_t=ZS-9AoRGNUY3hR" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://youtube.com/@itsukidarklightning434?si=c35G5Y2gjnG4ZieX" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="http://Ko-fi.com/itsuki03" target="_blank" rel="noopener noreferrer" aria-label="Ko-fi"><i class="fa-solid fa-mug-hot"></i></a>
+                </div>
+            </div>
+            <div class="hero-card-wrapper">
+                <div class="featured-art-card">
+                    <div class="card-image-box">
+                        <!-- EDITABLE: Replace hero showcase image source -->
+                        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop" alt="Featured Artwork">
+                    </div>
+                    <div class="card-details">
+                        <h3>Latest Masterpiece</h3>
+                        <p>Digital Illustration &bull; Clip Studio Paint</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <p>Get to know the artist behind the studio</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-img-box">
+                    <!-- EDITABLE: Replace profile picture source -->
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop" alt="Artist Profile Picture" id="profile-pic">
+                    <div class="availability-badge">
+                        <span class="status-dot"></span>
+                        <!-- EDITABLE: Commission Availability Status Text -->
+                        <span id="availability-text">Commissions Open (Slots: 3/5 Available)</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3>Hi, I'm Itsuki! 👋</h3>
+                    <!-- EDITABLE: Artist Biography -->
+                    <p>I am a passionate digital illustrator and multimedia artist specializing in striking character designs, vibrant concepts, and atmospheric storytelling. DARKLIGHTNING Studio is my creative sanctuary where art meets electric energy.</p>
+                    
+                    <div class="about-subsection">
+                        <h4><i class="fa-solid fa-palette"></i> Art Style & Interests</h4>
+                        <p>Anime-inspired digital illustrations, fantasy character concept art, dynamic action poses, atmospheric lighting effects, and stylized character sheets.</p>
+                    </div>
+
+                    <div class="about-subsection">
+                        <h4><i class="fa-solid fa-laptop-code"></i> Software & Tools</h4>
+                        <div class="tags-container">
+                            <span class="tag">Ibis Paint</span>
+                            <span class="tag">Clip Studio Paint</span>
+                            <span class="tag">Photoshop</span>
+                            <span class="tag">Adobe Illustrator</span>
+                            <span class="tag">Blender</span>
+                            <span class="tag">VRoid Studio</span>
+                            <span class="tag">VTuber Live</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GALLERY SECTION ==================== -->
+    <section id="gallery" class="section bg-dim">
+        <div class="container">
+            <div class="section-header">
+                <h2>Artwork <span class="gradient-text">Gallery</span></h2>
+                <p>Explore my recent illustrations, sketches, and fan art</p>
+            </div>
+
+            <!-- Gallery Filters -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Works</button>
+                <button class="filter-btn" data-filter="illustrations">Illustrations</button>
+                <button class="filter-btn" data-filter="characters">Characters</button>
+                <button class="filter-btn" data-filter="sketches">Sketches</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item" data-category="illustrations">
+                    <img src="https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?q=80&w=800&auto=format&fit=crop" alt="Cyberpunk Neon Artwork">
+                    <div class="gallery-overlay">
+                        <h3>Neon Reverie</h3>
+                        <p>Digital Illustration</p>
+                        <button class="lightbox-trigger" aria-label="View larger image"><i class="fa-solid fa-expand"></i></button>
+                    </div>
+                </div>
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item" data-category="characters">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop" alt="Fantasy Knight Character">
+                    <div class="gallery-overlay">
+                        <h3>Lightning Vanguard</h3>
+                        <p>Character Concept</p>
+                        <button class="lightbox-trigger" aria-label="View larger image"><i class="fa-solid fa-expand"></i></button>
+                    </div>
+                </div>
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item" data-category="sketches">
+                    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop" alt="Character Sketch">
+                    <div class="gallery-overlay">
+                        <h3>Quick Portrait Study</h3>
+                        <p>Sketch / Lineart</p>
+                        <button class="lightbox-trigger" aria-label="View larger image"><i class="fa-solid fa-expand"></i></button>
+                    </div>
+                </div>
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item" data-category="illustrations">
+                    <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=800&auto=format&fit=crop" alt="Fantasy Landscape">
+                    <div class="gallery-overlay">
+                        <h3>Astral Realm</h3>
+                        <p>Digital Illustration</p>
+                        <button class="lightbox-trigger" aria-label="View larger image"><i class="fa-solid fa-expand"></i></button>
+                    </div>
+                </div>
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item" data-category="characters">
+                    <img src="https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=800&auto=format&fit=crop" alt="Mecha Concept">
+                    <div class="gallery-overlay">
+                        <h3>Mecha Armor V2</h3>
+                        <p>Character Design</p>
+                        <button class="lightbox-trigger" aria-label="View larger image"><i class="fa-solid fa-expand"></i></button>
+                    </div>
+                </div>
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item" data-category="sketches">
+                    <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop" alt="Gesture Drawing">
+                    <div class="gallery-overlay">
+                        <h3>Dynamic Poses</h3>
+                        <p>Gesture Sketches</p>
+                        <button class="lightbox-trigger" aria-label="View larger image"><i class="fa-solid fa-expand"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== LIGHTBOX MODAL ==================== -->
+    <div id="lightbox" class="lightbox-modal">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Enlarged Artwork">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <!-- ==================== COMMISSION HUB SECTION ==================== -->
+    <section id="commission-hub" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Commission <span class="gradient-text">Hub</span></h2>
+                <p>Ready to bring your ideas to life? Choose your preferred platform below.</p>
+            </div>
+            
+            <div class="commission-banner-card">
+                <div class="banner-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <div class="banner-text">
+                    <h3>Commission on VGen (Recommended)</h3>
+                    <p>Secure payments, streamlined milestone tracking, and easy communication.</p>
+                </div>
+                <!-- EDITABLE: VGen Main Commission Button URL -->
+                <a href="https://vgen.co/Itsuki03" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+                    Visit VGen Page <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div class="pricing-preview-grid">
+                <div class="price-card">
+                    <div class="price-header">
+                        <h3>Headshot / Bust</h3>
+                        <span class="price">$45+</span>
+                    </div>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Clean Lineart & Color</li>
+                        <li><i class="fa-solid fa-check"></i> Simple Background</li>
+                        <li><i class="fa-solid fa-check"></i> 2 Free Revisions</li>
+                    </ul>
+                    <a href="https://vgen.co/Itsuki03" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">Order on VGen</a>
+                </div>
+                <div class="price-card featured-price">
+                    <div class="popular-tag">Most Popular</div>
+                    <div class="price-header">
+                        <h3>Half Body</h3>
+                        <span class="price">$85+</span>
+                    </div>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Detailed Rendering</li>
+                        <li><i class="fa-solid fa-check"></i> Customized Background</li>
+                        <li><i class="fa-solid fa-check"></i> 3 Free Revisions</li>
+                    </ul>
+                    <a href="https://vgen.co/Itsuki03" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">Order on VGen</a>
+                </div>
+                <div class="price-card">
+                    <div class="price-header">
+                        <h3>Full Illustration</h3>
+                        <span class="price">$140+</span>
+                    </div>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Full Complex Rendering</li>
+                        <li><i class="fa-solid fa-check"></i> Detailed Background / Scene</li>
+                        <li><i class="fa-solid fa-check"></i> Unlimited Minor Revisions</li>
+                    </ul>
+                    <a href="https://vgen.co/Itsuki03" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">Order on VGen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FIND ME ONLINE / SOCIAL HUB ==================== -->
+    <section id="social-hub" class="section bg-dim">
+        <div class="container">
+            <div class="section-header">
+                <h2>Find Me <span class="gradient-text">Online</span></h2>
+                <!-- EDITABLE: Short introductory message -->
+                <p>Enjoy my artwork? Follow me on your favourite platform for new illustrations, speedpaints, and commission updates!</p>
+            </div>
+
+            <!-- Social Card Grid -->
+            <div class="social-cards-grid">
+                <!-- VGen Card -->
+                <a href="https://vgen.co/Itsuki03" target="_blank" rel="noopener noreferrer" class="social-card highlight-card">
+                    <div class="social-icon vgen"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <div class="social-info">
+                        <h3>VGen</h3>
+                        <p>Commission services & artist profile</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right external-icon"></i>
+                </a>
+
+                <!-- Instagram Card -->
+                <a href="https://www.instagram.com/aiqiqivictor?psln=cWF4bzI3eWJ4d3R5" target="_blank" rel="noopener noreferrer" class="social-card">
+                    <div class="social-icon instagram"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="social-info">
+                        <h3>Instagram</h3>
+                        <p>Artwork posts and reels</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right external-icon"></i>
+                </a>
+
+                <!-- TikTok Card -->
+                <a href="https://www.tiktok.com/@itsuki032002?_r=1&_t=ZS-9AoRGNUY3hR" target="_blank" rel="noopener noreferrer" class="social-card">
+                    <div class="social-icon tiktok"><i class="fa-brands fa-tiktok"></i></div>
+                    <div class="social-info">
+                        <h3>TikTok</h3>
+                        <p>Speedpaints & short art videos</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right external-icon"></i>
+                </a>
+
+                <!-- YouTube Card -->
+                <a href="https://youtube.com/@itsukidarklightning434?si=c35G5Y2gjnG4ZieX" target="_blank" rel="noopener noreferrer" class="social-card">
+                    <div class="social-icon youtube"><i class="fa-brands fa-youtube"></i></div>
+                    <div class="social-info">
+                        <h3>YouTube</h3>
+                        <p>Speedpaints & process videos</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right external-icon"></i>
+                </a>
+
+                <!-- Ko-fi Card -->
+                <a href="http://Ko-fi.com/itsuki03" target="_blank" rel="noopener noreferrer" class="social-card">
+                    <div class="social-icon kofi"><i class="fa-solid fa-mug-hot"></i></div>
+                    <div class="social-info">
+                        <h3>Ko-fi</h3>
+                        <p>Support & optional commissions</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right external-icon"></i>
+                </a>
+
+                <!-- Email Card -->
+                <a href="mailto:itsukidarklightningarts@gmail.com" class="social-card">
+                    <div class="social-icon email"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="social-info">
+                        <h3>Email</h3>
+                        <p>itsukidarklightningarts@gmail.com</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-right external-icon"></i>
+                </a>
+            </div>
+
+            <!-- Share Website Utility Button -->
+            <div class="share-website-wrapper">
+                <button id="copy-link-btn" class="btn btn-outline">
+                    <i class="fa-solid fa-link"></i> Copy Website Link
+                </button>
+                <span id="copy-feedback" class="copy-feedback">Link copied to clipboard!</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TERMS OF SERVICE (TOS) ==================== -->
+    <section id="tos" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Terms of <span class="gradient-text">Service</span></h2>
+                <p>Please review my commission policies before submitting a request</p>
+            </div>
+
+            <div class="tos-grid">
+                <div class="tos-card">
+                    <div class="tos-icon"><i class="fa-solid fa-credit-card"></i></div>
+                    <h3>1. Payment</h3>
+                    <p>Full payment upfront or via VGen milestones. Invoices are sent securely. Accepted payment methods include PayPal, Stripe, and VGen supported processors. [EDITABLE: Customize payment terms]</p>
+                </div>
+                <div class="tos-card">
+                    <div class="tos-icon"><i class="fa-solid fa-rotate-left"></i></div>
+                    <h3>2. Revisions</h3>
+                    <p>Includes free minor revisions during the sketch and flat color phases. Major structural changes after rendering may incur extra fees. [EDITABLE: Adjust revision limits]</p>
+                </div>
+                <div class="tos-card">
+                    <div class="tos-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3>3. Turnaround Time</h3>
+                    <p>Standard turnaround ranges from 1 to 4 weeks depending on complexity and queue volume. Rush orders available upon request. [EDITABLE: Set your turnaround window]</p>
+                </div>
+                <div class="tos-card">
+                    <div class="tos-icon"><i class="fa-solid fa-ban"></i></div>
+                    <h3>4. Refunds & Cancellations</h3>
+                    <p>Full refund if cancelled before sketching begins. Once lineart is approved, refunds are non-negotiable due to time invested. [EDITABLE: Define refund conditions]</p>
+                </div>
+                <div class="tos-card">
+                    <div class="tos-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h3>5. Commercial Use</h3>
+                    <p>Personal use is standard. Commercial rights (merchandise, streaming monetization, branding) require a 2x–3x commercial multiplier fee. [EDITABLE: Specify commercial rates]</p>
+                </div>
+                <div class="tos-card">
+                    <div class="tos-icon"><i class="fa-solid fa-copyright"></i></div>
+                    <h3>6. Copyright & Credit</h3>
+                    <p>Artist retains all copyrights to the artwork. Buyer owns the physical/digital copy. Please credit @Itsuki03 when posting online. [EDITABLE: Credit guidelines]</p>
+                </div>
+                <div class="tos-card full-width-tos">
+                    <div class="tos-icon"><i class="fa-solid fa-list-check"></i></div>
+                    <h3>7. Accepted & Declined Requests</h3>
+                    <div class="tos-subgrid">
+                        <div>
+                            <h4 class="text-success"><i class="fa-solid fa-circle-check"></i> Accepted</h4>
+                            <p>Original Characters (OCs), Fanart, VTuber Models, Fantasy/Sci-Fi concepts, SFW illustrations. [EDITABLE]</p>
+                        </div>
+                        <div>
+                            <h4 class="text-danger"><i class="fa-solid fa-circle-xmark"></i> Declined</h4>
+                            <p>NSFW, heavy mecha/armor complexity beyond style, hate speech, or unauthorized commercial copying. [EDITABLE]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT & COMMISSION FORM ==================== -->
+    <section id="contact" class="section bg-dim">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact & <span class="gradient-text">Inquiries</span></h2>
+                <p>Send a message or submit your commission inquiry</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Direct Contact Options -->
+                <div class="contact-info-col">
+                    <h3>Let's Create Together</h3>
+                    <p>Have a question or want to request a custom commission directly? Reach out through VGen or email below!</p>
+                    
+                    <div class="contact-direct-buttons">
+                        <!-- Direct VGen Commission Button -->
+                        <a href="https://vgen.co/Itsuki03" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i> Commission on VGen
+                        </a>
+                        <!-- Direct Email Button -->
+                        <a href="mailto:itsukidarklightningarts@gmail.com" class="btn btn-outline">
+                            <i class="fa-solid fa-envelope"></i> Send Email
+                        </a>
+                    </div>
+
+                    <div class="contact-social-icons">
+                        <a href="https://www.instagram.com/aiqiqivictor?psln=cWF4bzI3eWJ4d3R5" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@itsuki032002?_r=1&_t=ZS-9AoRGNUY3hR" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://youtube.com/@itsukidarklightning434?si=c35G5Y2gjnG4ZieX" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="http://Ko-fi.com/itsuki03" target="_blank" rel="noopener noreferrer" aria-label="Ko-fi"><i class="fa-solid fa-mug-hot"></i></a>
+                    </div>
+                </div>
+
+                <!-- Commission Inquiry Form -->
+                <div class="contact-form-col">
+                    <form id="commission-form" class="inquiry-form">
+                        <h3>Commission Inquiry Form</h3>
+                        <p class="form-notice"><i class="fa-solid fa-circle-info"></i> Static site: Submissions generate a copyable summary or open your mail app.</p>
+                        
+                        <div class="form-group">
+                            <label for="client-name">Your Name / Handle *</label>
+                            <input type="text" id="client-name" required placeholder="e.g. Alex">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="client-email">Contact Details (Email / Discord) *</label>
+                            <input type="text" id="client-email" required placeholder="your.email@example.com or Discord#0000">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="commission-type">Commission Type *</label>
+                            <select id="commission-type" required>
+                                <option value="" disabled selected>Select commission type</option>
+                                <option value="Headshot / Bust">Headshot / Bust ($45+)</option>
+                                <option value="Half Body">Half Body ($85+)</option>
+                                <option value="Full Illustration">Full Illustration ($140+)</option>
+                                <option value="VTuber Model / Other">VTuber Model / Custom</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="character-refs">Character References (Links)</label>
+                            <input type="text" id="character-refs" placeholder="Paste Toyhouse, Drive, or image links">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-desc">Description & Pose / Mood *</label>
+                            <textarea id="project-desc" rows="4" required placeholder="Describe your character, clothing, pose, expression, and background..."></textarea>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="budget">Budget (USD)</label>
+                                <input type="text" id="budget" placeholder="e.g. $100">
+                            </div>
+                            <div class="form-group">
+                                <label for="deadline">Deadline (if any)</label>
+                                <input type="text" id="deadline" placeholder="e.g. End of next month">
+                            </div>
+                        </div>
+
+                        <div class="form-submit-group">
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Generate Request Summary
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Output Modal / Result Box for Static Form -->
+                    <div id="form-result-modal" class="form-result-box" style="display: none;">
+                        <h4><i class="fa-solid fa-check-circle text-success"></i> Inquiry Summary Generated!</h4>
+                        <p>Copy your request below or click send via email:</p>
+                        <textarea id="generated-inquiry-text" readonly rows="6"></textarea>
+                        <div class="form-result-actions">
+                            <button id="copy-inquiry-btn" class="btn btn-primary btn-sm"><i class="fa-solid fa-copy"></i> Copy Text</button>
+                            <a id="mailto-link" href="#" class="btn btn-outline btn-sm"><i class="fa-solid fa-envelope"></i> Send via Email</a>
+                            <button id="reset-form-btn" class="btn btn-text btn-sm">Edit Form</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer id="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#hero" class="logo">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                    <span>DARKLIGHTNING Studio</span>
+                </a>
+                <p>&copy; 2026 DARKLIGHTNING Studio &bull; All Rights Reserved.</p>
+                <p class="footer-credit">Created for Itsuki &bull; Powered by VGen & GitHub Pages</p>
+            </div>
+            <div class="footer-socials">
+                <h4>Connect Online</h4>
+                <div class="footer-social-links">
+                    <a href="https://vgen.co/Itsuki03" target="_blank" rel="noopener noreferrer" aria-label="VGen"><i class="fa-solid fa-wand-magic-sparkles"></i></a>
+                    <a href="https://www.instagram.com/aiqiqivictor?psln=cWF4bzI3eWJ4d3R5" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@itsuki032002?_r=1&_t=ZS-9AoRGNUY3hR" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://youtube.com/@itsukidarklightning434?si=c35G5Y2gjnG4ZieX" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="http://Ko-fi.com/itsuki03" target="_blank" rel="noopener noreferrer" aria-label="Ko-fi"><i class="fa-solid fa-mug-hot"></i></a>
+                    <a href="mailto:itsukidarklightningarts@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
+
